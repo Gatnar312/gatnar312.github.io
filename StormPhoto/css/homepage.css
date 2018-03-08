@@ -63,6 +63,7 @@ a:hover{
 /* Favourite Photos */
 
 .main img{
+	display: block;
 	box-sizing: border-box;
 	max-width: 80%;
 	height: auto;
