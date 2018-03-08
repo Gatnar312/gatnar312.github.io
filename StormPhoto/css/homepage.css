@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+
+body{
+	background-color: hsla(0, 0%, 8%, 1);
+
+}
+
+/* Top Navigation Bar */
+
+.navbar{
+	background-color: hsla(0, 0%, 8%, 1);
+	box-sizing: border-box;
+	width: 100%;
+	height: 75px;
+	margin-bottom: 3px;
+	display: inline-grid;
+	grid-template: 1fr / 75px 200px 1fr 200px 1fr 275px;
+	align-items: center;
+	justify-items: center;
+	border-bottom: 1px solid White;
+}
+
+a{
+	color: white;
+	text-decoration: none; /* no underline */
+	font-family: 'Bad Script', cursive;
+}
+
+a:hover{
+	color: hsla(0, 0%, 55%, 1);
+}
+
+.navbar img{
+	height: 75px;
+	width: 75px;
+}
+
+
+.link{
+	text-transform: uppercase;
+}
+
+.hometext{
+	justify-self: start;
+	font-size: 30px;
+}
+
+.port{
+	justify-self: end;
+}
+
+.contact{
+	justify-self: start;
+}
+
+
+/* Favourite Photos */
+
+.main img{
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto;
+	padding: 10px 10px;
+}
