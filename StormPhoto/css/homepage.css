@@ -64,7 +64,7 @@ a:hover{
 
 .main img{
 	box-sizing: border-box;
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 	padding: 10px 10px;
 }
