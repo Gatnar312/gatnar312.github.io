@@ -8,7 +8,7 @@
 
 body{
 	background-color: hsla(0, 0%, 8%, 1);
-	overflow-x: hidden;
+
 }
 
 /* Top Navigation Bar */
@@ -59,25 +59,12 @@ a:hover{
 	justify-self: start;
 }
 
-/* Photo Grid */
-.container{
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	justify-content: stretch;
-	margin: 0 -15px 0 15px;
-}
 
-.container img{
- 	width: 95%;
- 	height: auto;
- 	margin: 10px 0 10px 0;
- }
+/* Favourite Photos */
 
- @media (max-width: 800px) {
-  .container {
-    display: grid;
-	grid-template-columns: repeat(2,1fr);
-	justify-content: stretch;
-	margin: 0 -15px 0 15px;
+.main img{
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto;
+	padding: 10px 10px;
 }
-  }
